@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>SIDOVSKY</Authors>
+    <PackageLicenseExpression>CC0-1.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/SIDOVSKY/tz-lookup-net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/SIDOVSKY/tz-lookup-net.git</RepositoryUrl>
+    <PackageReleaseNotes>tz-lookup v6.1.24
+* Database, code and tests are up to date to commit [ab076ce - v6.1.24: fix #54]</PackageReleaseNotes>
+    <Description>Provides an IANA time zone identifier from latitude and longitude coordinates.
+The port of the fast and lightweight JS library https://github.com/darkskyapp/tz-lookup</Description>
+    <PackageTags>tz-lookup, time, zone, timezone, geo, geolocation, location, coordinates, latitude, longitude, iana</PackageTags>
   </PropertyGroup>
 
 </Project>
