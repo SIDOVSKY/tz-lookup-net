@@ -1,6 +1,6 @@
 # tz-lookup-net
 
-The port of the fast and lightweight JS library https://github.com/darkskyapp/tz-lookup
+The port of the fast and lightweight JS library https://github.com/darkskyapp/tz-lookup-oss
 
 Provides an IANA time zone identifier from latitude and longitude coordinates.
 
@@ -26,7 +26,7 @@ See the README of the original library for more details.
 
 ## Special thanks to
 
-[DarkSky](https://github.com/darkskyapp) and all [contributors of the original JS library](https://github.com/darkskyapp/tz-lookup/graphs/contributors).
+[DarkSky](https://github.com/darkskyapp) and all [contributors of the original JS library](https://github.com/darkskyapp/tz-lookup-oss/graphs/contributors).
 
 ## License
 
