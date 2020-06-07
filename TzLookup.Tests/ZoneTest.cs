@@ -93,6 +93,13 @@ namespace TzLookup.Tests
         [InlineData(44.6972, -67.3955, "America/New_York")] // #53
         [InlineData(67.9333, 23.4333, "Europe/Stockholm")] // #54
         [InlineData(67.8167, 23.1667, "Europe/Stockholm")] // #54
+        [InlineData(68.1375, 23.1447, "Europe/Stockholm")] // #56 (Saivomuotka)
+        [InlineData(67.8000, 23.1133, "Europe/Stockholm")] // #56 (Muonionalusta)
+        [InlineData(67.9458, 23.6242, "Europe/Stockholm")] // #56 (Muoniovaara)
+        [InlineData(68.0168, 23.4515, "Europe/Stockholm")] // #56 (Ruosteranta)
+        [InlineData(68.1133, 23.3214, "Europe/Stockholm")] // #56 (Kätkesuando)
+        [InlineData(40.7084, -86.69554, "America/Indiana/Indianapolis")] // #59
+        [InlineData(41.0523, -86.70629, "America/Indiana/Indianapolis")] // #59
 
         // Check that we resolve conflicting zones adequately.
         [InlineData(43.8250, 87.6000, "Asia/Urumqi")]
